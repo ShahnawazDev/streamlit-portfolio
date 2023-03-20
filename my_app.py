@@ -31,7 +31,7 @@ lottie_laptop = load_lottiefile("assets/animations/laptop.json")
 with st.container():
     st.title("Hey there :wave:, I'm *Shahnawaz*")
     st.subheader("A software developer with a passion for learning!")
-    st.write("I am passionate about finding ways to use Python and AI and Software Testing to be more efficient and effective")
+    st.write("I'm currently exploring exciting new technologies such as AR, VR, Flutter, and Unity3D. While I'm not yet an expert in these areas, I'm enthusiastic about learning and pushing the boundaries of what's possible. I've started a few small projects in these areas and can't wait to see where my journey takes me. Check out my portfolio to see some of my early work, and let's connect if you're interested in collaborating on something innovative and fun!")
 
 # Social
 with st.container():
