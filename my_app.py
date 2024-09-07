@@ -150,6 +150,26 @@ with p2:
 #         st.write("A simple ToDo App")
 #         st.write("[Source Code](https://github.com/ShahnawazDev/ToDo)")
 
+
+# Project 1
+with st.container():
+    st.image("assets/icons/todo_icon.png", width=200, caption="Project 1 - ToDo App Icon")
+    st.subheader("To Do")
+    st.image(["assets/icons/todo_icon.png", "assets/icons/todo_icon.png"], width=200,use_column_width=True)
+    st.video("https://www.youtube.com/watch?v=your_project1_demo_video_id")
+    st.write("A simple ToDo App")
+    st.write("[Source Code](https://github.com/ShahnawazDev/ToDo)")
+
+# Project 2
+with st.container():
+    st.image("assets/icons/todo_icon.png", width=200, caption="Project 2 - FitBook Icon")
+    st.subheader("FitBook")
+    st.image(["assets/icons/todo_icon.png", "assets/icons/todo_icon.png"], width=200, caption="Project 2 - Screenshots")
+    st.video("https://www.youtube.com/watch?v=your_project2_demo_video_id")
+    st.write("Fitness Tracker App")
+    st.write("[Source Code](https://github.com/ShahnawazDev/FitBook)")
+
+
 # Contact Form
 st.header(":mailbox: Get In Touch With Me!")
 
